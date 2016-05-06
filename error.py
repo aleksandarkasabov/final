@@ -4,7 +4,7 @@ app = Flask(__name__);
 
 @app.route('/')
 def hello_world():
-    return redirect('https://covcom-aleksandarkasabov.c9users.io/assignment/index.html')
+    return redirect('https://preview.c9users.io/aleksandarkasabov/final/assignment/index.html?_c9_id=livepreview4&_c9_host=https://ide.c9.io')
 
 @app.route('/users/<username>')
 def hello_me(username):
@@ -13,7 +13,7 @@ def hello_me(username):
 @app.route('/error')
 @app.route('/errors')
 def error():
-    return redirect('https://covcom-aleksandarkasabov.c9users.io/assignment/error.html')
+    return redirect('https://preview.c9users.io/aleksandarkasabov/final/assignment/error.html?_c9_id=livepreview5&_c9_host=https://ide.c9.io')
 
 
 @app.route('/unexpected')
