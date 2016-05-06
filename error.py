@@ -6,10 +6,6 @@ app = Flask(__name__);
 def hello_world():
     return redirect('https://preview.c9users.io/aleksandarkasabov/final/assignment/index.html?_c9_id=livepreview4&_c9_host=https://ide.c9.io')
 
-@app.route('/users/<username>')
-def hello_me(username):
-    return 'Hello ' + username + '!'
-
 #adding route for giving an error and linking to the error page    
 @app.route('/error')
 @app.route('/errors')
