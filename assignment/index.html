@@ -2,9 +2,15 @@
 <html>
     <head>
         <title>Sia Retouching</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Adding meta tags to the web page-->
+        <meta name="language" content="english">
+        <meta name="autor" content="Aleksandar Kasabov">
+        <meta name="copyright" content="Aleksandar Kasabov">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Allowing to create responsive design-->
+        <!--Adding links to the stylesheets used in the website-->
         <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
         <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <!--Adding links to JavaScript files in order to get the functionality of the website-->
         <script type="text/javascript" src="js/scroll.js"></script>
         <script type="text/javascript" src="js/stickynav.js"></script>
   		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
@@ -18,6 +24,7 @@
     </head>
     <body>
     	<div id="header">
+    	    <!--adding images for the slideshow in the header-->
     		<div class="css-slideshow">
                 <figure>
                     <img src="images/header/1.jpg"/></img>
@@ -40,8 +47,9 @@
             </div>  
 	    	<div id="navigation"><img id="logo" src="images/logo.png">
  	    		</br>
+ 	    		<!--creating unordered list of buttons used for navigation-->
  	    		<ul>
-	    		<li><button type="button" class="button" onclick="smoothScroll(document.getElementById('fashion'))">Fashion</button>
+	    		<li><button type="button" class="button" onclick="smoothScroll(document.getElementById('fashion'))">Fashion</button><!--adding function and target to each of the buttons so when clicked scrolls to a particular section-->
 	    		<li><button type="button" class="button" onclick="smoothScroll(document.getElementById('beauty'))">Beauty</button>
 	    		<li><button type="button" class="button" onclick="smoothScroll(document.getElementById('publications'))">Publications</button>
 	    		<li><button type="button" class="button" onclick="smoothScroll(document.getElementById('about'))">About</button>
@@ -62,6 +70,7 @@
     	    <div class="text">
     		<h1>Fashion</h1>
 			<br>
+			<!--using bootstrap carousel to allow the user to preview images within the website-->
 			<div id="fashionCarousel" class="carousel slide" data-ride="carousel">
 			  <!-- Wrapper for slides -->
               <div class="carousel-inner">
@@ -188,6 +197,7 @@
     	    </br>
     	    <div class="text">
     		<h1>Beauty</h1>
+    		<!--using bootstrap carousel to allow the user to preview images within the website-->
     			<div id="beautyCarousel" class="carousel slide" data-ride="carousel">
 			  <!-- Wrapper for slides -->
               <div class="carousel-inner">
@@ -284,6 +294,7 @@
     	    </br>
     	    <div class="text">
     		<h1>Publications</h1>
+    		<!--using bootstrap carousel to allow the user to preview images within the website-->
     		<div id="publicationsCarousel" class="carousel slide" data-ride="carousel">
 			  <!-- Wrapper for slides -->
               <div class="carousel-inner">
@@ -421,6 +432,7 @@
     		<h1>Contact me</h1>
     		<p>For any project enquires, please contact me via email or using social media listed below:</p>
     		<p>email: sia.retouching@gmail.com
+    		<!--adding links to external websites(social media)-->
     		</br><a href="https://www.facebook.com/siaretouching"  target="_blank">Facebook</a>
     		</br><a href="https://www.instagram.com/siaretouching/"  target="_blank">Instagram</a>
     		</p>
@@ -435,6 +447,7 @@
     		</br>
     		</br>
     		<div id="media">
+    		    <!--adding links to external websites(social media)-->
     		<a href="https://www.instagram.com/siaretouching/" target="_blank"><img id="social" src="images/instagram.png"></img></a>
     		<a href="https://www.facebook.com/siaretouching" target="_blank"><img id="social" src="images/facebook.png"></img></a>
     		<a href="https://www.behance.net/SiaRetouching" target="_blank"><img id="social" src="images/behance.png"></img></a>
